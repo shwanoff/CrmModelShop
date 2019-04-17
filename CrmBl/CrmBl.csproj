@@ -54,9 +54,11 @@
     <Compile Include="Model\Check.cs" />
     <Compile Include="Model\CrmContext.cs" />
     <Compile Include="Model\Customer.cs" />
+    <Compile Include="Model\Generator.cs" />
     <Compile Include="Model\Product.cs" />
     <Compile Include="Model\Sell.cs" />
     <Compile Include="Model\Seller.cs" />
+    <Compile Include="Model\ShopComputerModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
