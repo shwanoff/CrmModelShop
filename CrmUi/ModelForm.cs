@@ -6,6 +6,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -56,6 +57,11 @@ namespace CrmUi
         private void numericUpDown2_ValueChanged(object sender, EventArgs e)
         {
             model.CashDeskSpeed = (int)numericUpDown2.Value;
+        }
+
+        private void ModelForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            model.Stop();
         }
     }
 }
